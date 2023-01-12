@@ -21,7 +21,7 @@ git clone https://github.com/coderavdhesh/expense_tracker.git
 
 **2. Create Mysql database**
 ```bash
-create database expensetracker
+create database expense_tracker
 ```
 
 **3. Change mysql username and password as per your installation**
@@ -29,6 +29,8 @@ create database expensetracker
 + open `src/main/resources/application.properties`
 
 + change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
+
++ we can also update/change the server port number by uptating server.port={...change the port number...}
 
 **4. Build and run the app using maven (expensetracker)**
 

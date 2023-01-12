@@ -9,11 +9,7 @@ A simple expense tracking application built with Angular 9 and Spring boot that 
 
 3. Mysql - 5.x.x
 
-4. Angular - 9.x.x
-
-5. Node - 12.x.x
-
-6. Npm - 6.x.x
+4. Springboot - 2.x.x
 
 ## Steps to Setup
 
@@ -82,7 +78,3 @@ ng serve --open
 ```
 
 ## Learn more
-
-You can find the tutorial for this application on my blog -
-
-<https://bushansirgur.in/angular-9-and-spring-boot-crud-tutorial-introduction-and-setup/>

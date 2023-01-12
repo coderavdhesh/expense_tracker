@@ -64,13 +64,14 @@ Alternatively, you can run the below command to open the application in default 
 ## Learn more
 
 -----------------------------------------------------------------------------------------------
-                    Expense Tracker Web Application
+                    Know More about "Expense Tracker Web Application"
 -----------------------------------------------------------------------------------------------
-Project Name : Expense Tracker Web app backend service development
+Project Name : Expense Tracker Web app backend service development 
 Project aim : This API helps to fatch data and also performed CRUD operations to make our website/apps updated with the correct DataSets.
 -----------------------------------------------------------------------------------------------
                                 How this API works ? 
 Web requests and URLs which helps to perform Get/Post/Put/Delete [CRUD operations] --
+Note : you can use Postman or any rest client to hit these all URLs.
 
 1. Create [Post] : 
     -> 'localhost:7001/expenses', it helps to Create expense dataset in our database.
@@ -80,14 +81,11 @@ Web requests and URLs which helps to perform Get/Post/Put/Delete [CRUD operation
     -> 'localhost:7001/expenses/{id}', it is a Dynamic request, helps to retrieve dataset of a spacific expense of the passed Id from our database.
 
 3. Update [Put] :
-    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to update the already 
-        existing datasets in our database, if the dataset is not available in out database than
-        the code will handle the exception and return the response error of 'NOT_FOUND'.
+    -> 'localhost:7676/expense/{id}', it is also a Dynamic request, helps to update the already existing datasets in our database.
 
 4. Delete [Delete] :
-    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to Delete the already 
-        existing datasets in our database, if the dataset is not available in out database than
-        the code will handle the exception and return the response error of 'NO_CONTENT'.
+    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to Delete the already existing datasets in our database.
+    
 -----------------------------------------------------------------------------------------------
                                     Key Learnings:
 1. How the Things are actually working in Backend.

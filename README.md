@@ -16,7 +16,7 @@ A simple expense tracking application built with Angular 9 and Spring boot that 
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/scbushan05/angular9-springboot-expensetracker.git
+git clone https://github.com/coderavdhesh/expense_tracker.git
 ```
 
 **2. Create Mysql database**
@@ -33,8 +33,7 @@ create database expensetracker
 **4. Build and run the app using maven (expensetracker)**
 
 ```bash
-mvn package
-java -jar target/expensetracker-v1.jar
+java -jar target/expense_tracker.jar
 ```
 
 Alternatively, you can run the app without packaging it using -
@@ -43,38 +42,23 @@ Alternatively, you can run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-The app will start running at <http://localhost:8080>.
+The app will start running at <http://localhost:7001>.
 
 ## Explore Rest APIs
 
 The app defines following CRUD APIs.
 
-    GET /api/v1/expenses
+    GET /expenses
     
-    POST /api/v1/expenses
+    POST /expenses
     
-    GET /api/v1/expenses/{expenseId}
+    GET /expenses/{expenseId}
     
-    DELETE /api/v1/expenses/{expenseId}
+    DELETE /expenses/{expenseId}
 
 You can test them using postman or any other rest client.
 
-**5. Install node modules for angular application (expense-tracker-frontend)**
-
-```bash
-npm install
-```
-
-**6. Run the angular application**
-
-```bash
-ng serve
-```
-
 Alternatively, you can run the below command to open the application in default web browser -
 
-```bash
-ng serve --open
-```
 
 ## Learn more

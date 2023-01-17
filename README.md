@@ -1,9 +1,9 @@
 # Expense Tracker, Spring boot and MySQL Web Applicaton
-A simple expense tracking application built Spring boot that connects to the MySQL database. Application built using spring data JPA to perform database operations. Users can add, list, update, delete the expenses.
+A backend of a web application, It helps us to track, manage and calculate expenses, built on Spring boot that connects to the MySQL database in real-time. Application built using Spring Data JPA to perform database CRUD operations. Users can add, retrieve, update and delete their expenses to track them.
 
 ## Requirements
 
-1. Java - 1.8.x
+1. Java - 17
 
 2. Maven - 3.x.x
 
